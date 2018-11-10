@@ -1,9 +1,9 @@
 javascript:
 server = atob("aHR0cDovLzE1OS42NS4xNjcuMTkyOjgwODAvZ2V0LW1wMy8=");
-//kodda gelistirme yapilabilir pc icin yerimlerine ekleyin sonra video sayfasinda calistirin.
-//ornek link https://www.youtube.com/watch?v=fa2L-A2sS-4
+/*kodda gelistirme yapilabilir pc icin yerimlerine ekleyin sonra video sayfasinda calistirin.*/
+/*ornek link https://www.youtube.com/watch?v=xpLPxxav0Ec */
 function downloadURI(uri, name) {
-    //https://stackoverflow.com/a/23013574/9218468
+    /*https://stackoverflow.com/a/23013574/9218468*/
     var link = document.createElement("a");
     link.download = name;
     link.href = uri;
