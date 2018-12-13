@@ -1,0 +1,1 @@
+javascript:try{document.body.innerHTML.replace(/</g,'&lt').replace(/>/g,'&gt').replace(/\&quot;/g,'"').replace(/amp;/g,'').replace(/<pre style=\"padding:0; margin:0\"><code>/g,'').replace(/<\/code><\/pre>/g,'');}catch(e){alert(e);}
