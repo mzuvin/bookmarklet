@@ -1,6 +1,6 @@
-/*https: //www.google.com/search?q=*/
+javascript:
 
-habersiteleri=[
+var habersiteleri=[
 "trthaber.com",
 "mynet.com",
 "haberler.com",
@@ -32,6 +32,6 @@ javascript: if (document.URL.search("google.com") < 0) {
     alert("Haber Engelleyici BookMarklet");
     location.href = "https://google.com";
 } else {
-    location.href = "https://google.com/search?q=" + escape(prompt('Googleda arama yapin:').replace(" ", "+")) +engelle;
+    location.href = "https://google.com/search?q=" + escape(prompt('Googleda arama yapin:').replace(" ", "+")) + engelle;
 }
 save();
